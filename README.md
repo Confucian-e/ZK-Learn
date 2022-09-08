@@ -18,3 +18,18 @@
 
 [零知识证明-Mixer(混币)应用分析](https://learnblockchain.cn/2019/11/14/zkp-Mixer)
 
+## SNARK 和 STARK
+
+> 区块链领域中所用到或者提到的 “zk” 通常不是真正的零知识证明, 而经常是 Validity Proof
+
+![](./img/zkp.png)
+
+## 项目
+
+- 虚拟机
+  - zkEVM
+  - zkSync
+- 交易隐私
+  - Tornado.cash
+  - zk.money
+
