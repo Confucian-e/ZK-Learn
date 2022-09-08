@@ -12,6 +12,9 @@
 
 [零知识证明-新人入门指南](https://learnblockchain.cn/article/704)
 
+[零知识证明学习资料汇总](https://learnblockchain.cn/2019/11/08/zkp-info)
+
 ### 应用场景
 
 [零知识证明-Mixer(混币)应用分析](https://learnblockchain.cn/2019/11/14/zkp-Mixer)
+
