@@ -16,7 +16,7 @@
 
 ### 应用场景
 
-[零知识证明-Mixer(混币)应用分析](https://learnblockchain.cn/2019/11/14/zkp-Mixer)
+[零知识证明-Mixer(混币)应用分析](https://learnblockchain.cn/2019/11/14/zkp-Mixer) ✅
 
 ## SNARK 和 STARK
 
