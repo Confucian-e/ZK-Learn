@@ -23,8 +23,8 @@
 
 ## RoadMap
 
-- [ ] 科普-了解什么是零知识证明
-- [ ] 学习-零知识证明的相关理论
+- [ ] 科普-[了解什么是零知识证明](https://github.com/Confucian-e/ZK-Learn/tree/main/1_WhatIsZK)
+- [ ] 学习-[零知识证明的相关理论](https://github.com/Confucian-e/ZK-Learn/tree/main/2_LearnZK)
 - [ ] 应用-哪些项目采用了零知识证明
 - [ ] 分析-项目采用零知识证明解决了哪些问题
 
