@@ -6,18 +6,6 @@
 
 零知识证明实质上是一种涉及两方或更多方的协议，即两方或更多方完成一项任务所需采取的一系列步骤。证明者向验证者证明并使其相信自己知道或拥有某一消息，但证明过程不能向验证者泄漏任何关于被证明消息的信息。
 
-## 资料
-
-[一文读懂零知识证明（ZKP）](https://blog.chain.link/what-is-a-zero-knowledge-proof-zkp-zh/)
-
-[零知识证明-新人入门指南](https://learnblockchain.cn/article/704)
-
-[零知识证明学习资料汇总](https://learnblockchain.cn/2019/11/08/zkp-info)
-
-### 应用场景
-
-[零知识证明-Mixer(混币)应用分析](https://learnblockchain.cn/2019/11/14/zkp-Mixer) ✅
-
 ## SNARK 和 STARK
 
 > 区块链领域中所用到或者提到的 “zk” 通常不是真正的零知识证明, 而经常是 Validity Proof
@@ -32,4 +20,11 @@
 - 交易隐私
   - Tornado.cash
   - zk.money
+
+## RoadMap
+
+- [ ] 科普-了解什么是零知识证明
+- [ ] 学习-零知识证明的相关理论
+- [ ] 应用-哪些项目采用了零知识证明
+- [ ] 分析-项目采用零知识证明解决了哪些问题
 
