@@ -25,6 +25,5 @@
 
 - [x] 科普-[了解什么是零知识证明](https://github.com/Confucian-e/ZK-Learn/tree/main/what_is_zk)
 - [ ] 学习-[零知识证明的相关理论](https://github.com/Confucian-e/ZK-Learn/tree/main/learn_zk)
-- [ ] 应用-哪些项目采用了零知识证明
-- [ ] 分析-项目采用零知识证明解决了哪些问题
-
+- [ ] 应用-[哪些项目采用了零知识证明](https://github.com/Confucian-e/ZK-Learn/tree/main/who_apply_zk)
+- [ ] 分析-[项目采用零知识证明解决了哪些问题](https://github.com/Confucian-e/ZK-Learn/tree/main/zk_analyze)
