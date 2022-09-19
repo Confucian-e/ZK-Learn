@@ -10,7 +10,7 @@ Tornado cash是一个去中心化**加密货币混合**服务平台，使用智�
 
 ##### 使用
 
-<img src="/Users/confucian/TaiDi-Tech/github-repo/ZK-Learn/img/tornado_cash.png" style="zoom:50%;" />
+![](../img/tornado_cash.png)
 
 Tornado cash允许你将固定金额的ETH、DAI、USDC、USDT存入合约。存款时会得到一个备份代码，用于以后提取资金。
 

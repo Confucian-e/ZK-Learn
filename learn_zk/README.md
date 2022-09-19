@@ -2,7 +2,7 @@
 
 ## 逻辑框架
 
-<img src="/Users/confucian/TaiDi-Tech/github-repo/ZK-Learn/img/zk_framework.png" style="zoom:50%;" />
+![](../img/zk_framework.png)
 
 ## 常见的算法
 
