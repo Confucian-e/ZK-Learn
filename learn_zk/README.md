@@ -14,7 +14,7 @@
 
 #### 概念
 
-**z**ero-**k**nowledge **S**uccint **N**on-interactive **AR**guments of **K**nowledge
+**z**ero-**k**nowledge **S**uccint **N**on-interactive **AR**guments of **K**nowledge 简洁的非交互式知识认证
 
 - **S**uccinct：证明的数据量比较小
 - **N**on-interactive：没有或者只有很少交互
