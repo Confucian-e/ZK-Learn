@@ -16,6 +16,10 @@
 
 [zk-snark入门](https://learnblockchain.cn/2019/04/18/learn-zkSNARK) ✅
 
+[What are zk-SNARKs?](https://z.cash/technology/zksnarks/)
+
+[零知识证明 与 zk-SNARKs(数学版)](https://www.youtube.com/watch?v=TQjzKAkHFls&t=12s)
+
 #### zk-Stark
 
 ### 应用
@@ -24,7 +28,7 @@
 
 [使用零知识证明提高去中心化的交易性能](https://learnblockchain.cn/2019/10/22/Loopring-DEX)
 
-[Tornado.cash：一个关于匿名和 zk-snark 的故事](https://learnblockchain.cn/article/2763)
+[Tornado.cash：一个关于匿名和 zk-snark 的故事](https://learnblockchain.cn/article/2763) ✅
 
 [读懂 zk-rollup](https://learnblockchain.cn/article/3195)
 
