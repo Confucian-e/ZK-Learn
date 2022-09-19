@@ -14,7 +14,7 @@
 
 #### zk-Snark
 
-[zk-snark入门](https://learnblockchain.cn/2019/04/18/learn-zkSNARK)
+[zk-snark入门](https://learnblockchain.cn/2019/04/18/learn-zkSNARK) ✅
 
 #### zk-Stark
 
