@@ -62,6 +62,8 @@ tornado 中，存款操作传入的参数 `commitment` 是由 `secert` 与 `null
 
 tornado cash 中将 merkle tree 运用到零知识证明中，零知识证明中 `proof` 实际捆绑了凭证 note，用户自己的 `merkle root`，`nullifierHash`，资金接收者地址。取款合约中确保 `nullilierHash` 是未使用过的，以及用户提供的 Root 确实是自己知道的代表完整记录的 Root。然后，合约将自己验证过的输入 `nullifierHash` 和 `root`，以及用户方输入的 `proof recipient fee` 等输入 Verifier 合约。用零知识证明 `proof` 提供的路径确实能联通用户提供的 `nullifier` 和 `secret` 生成的 `commitment` 和提供的 `root`，用户是这个 `commitment` 的拥有者。
 
+> 由于政策监管，Tornado Cash 现已被封杀停止使用，一代天王就此陨落...
+
 ### Zcash 匿名币
 
 算法：zk-SNARKs
@@ -86,13 +88,19 @@ Zcash 诞生很早，代码是基于比特币改的，差异主要体现在两�
 
 ## 链
 
-### Aleo
+### Aleo 隐私链
 
-![](../img/Aleo_logo.png)
+<img src="../img/Aleo_logo.png"  />
 
-### 背景
+#### 背景
 
 Zcash只能执行基于 UTXO 模型的隐私交易，不具有可编程性；但 Aleo 这条链实现了隐私可编程。
+
+### Manta Network 波卡平行链
+
+算法：zk-SNARK
+
+![](../img/MantaNetwork_logo.png)
 
 ## 虚拟机
 
