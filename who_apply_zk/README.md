@@ -102,7 +102,13 @@ Zcash只能执行基于 UTXO 模型的隐私交易，不具有可编程性；但
 
 ![](../img/MantaNetwork_logo.png)
 
-## 虚拟机
+## L2
+
+### StarkWare
+
+算法：zk-Stark
+
+
 
 ### zkSync
 

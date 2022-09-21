@@ -32,6 +32,10 @@
 
 [读懂 zk-rollup](https://learnblockchain.cn/article/3195)
 
+[Zcash => Aleo : 从交易隐私到可编程性隐私](https://zhuanlan.zhihu.com/p/559171605) ✅
+
+[zkRollup介绍 原理篇](https://learnblockchain.cn/article/1186)
+
 ### repo
 
 [Awesome zero knowledge proofs (zkp)](https://github.com/matter-labs/awesome-zero-knowledge-proofs)
