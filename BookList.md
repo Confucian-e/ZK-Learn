@@ -30,11 +30,13 @@
 
 [Tornado.cash：一个关于匿名和 zk-snark 的故事](https://learnblockchain.cn/article/2763) ✅
 
-[读懂 zk-rollup](https://learnblockchain.cn/article/3195)
+[读懂 zk-rollup](https://learnblockchain.cn/article/3195) ✅
 
 [Zcash => Aleo : 从交易隐私到可编程性隐私](https://zhuanlan.zhihu.com/p/559171605) ✅
 
 [zkRollup介绍 原理篇](https://learnblockchain.cn/article/1186)
+
+[Optimistic Rollup 的两难困境](https://learnblockchain.cn/article/1619) ✅
 
 ### repo
 
