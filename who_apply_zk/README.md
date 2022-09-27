@@ -4,7 +4,7 @@
 
 ### Tornado cash 混币器
 
-算法：zk-SNARKs
+*算法：zk-SNARKs*
 
 ![](../img/tornado_cash_logo.png)
 
@@ -66,7 +66,7 @@ tornado cash 中将 merkle tree 运用到零知识证明中，零知识证明中
 
 ### Zcash 匿名币
 
-算法：zk-SNARKs
+*算法：zk-SNARKs*
 
 ![](../img/zcash_logo.png)
 
@@ -82,9 +82,25 @@ Zcash 诞生很早，代码是基于比特币改的，差异主要体现在两�
 
 #### 技术
 
-![](../img/zcash_1.jpg)
+Zcash 的发展大体经过了 OverWinter -> Sprout -> Sapling 这几个阶段，随着业务和功能的逐渐丰富，密钥系统也越来越复杂。
 
-好文：[Zcash => Aleo : 从交易隐私到可编程性隐私 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/559171605)
+现在 Zcash 的交易结构十分复杂，具体可参考 [Zcash 图解Transaction结构](https://learnblockchain.cn/2019/08/01/nullifier-hash)
+
+#### 如何实现隐私
+
+所谓隐私，就是要隐藏一笔交易的发送方(from)、接收方(to)、金额(amount)
+
+- 隐藏发送方
+
+发送方可以随机生成密钥对，然后对交易签名，这样就不会对外暴露固定的公钥。
+
+- 隐藏接收方
+
+接收方的Payment Address只有发送方知道，广播时对信息进行处理，矿工无法知晓地址信息，且无法在区块链浏览器中查询；引入了“多样化”地址，可以给每个发送方生成不同的地址，从而混淆接收方的信息。
+
+- 隐藏金额
+
+矿工只需要通过零知识证明验证交易的input和output是平衡的，而不需要查询发送方的余额以及转账金额。
 
 ## 链
 
@@ -94,26 +110,33 @@ Zcash 诞生很早，代码是基于比特币改的，差异主要体现在两�
 
 #### 背景
 
-Zcash只能执行基于 UTXO 模型的隐私交易，不具有可编程性；但 Aleo 这条链实现了隐私可编程。
+Zcash 只能执行基于 UTXO 模型的隐私交易，不具有可编程性；但 Aleo 这条链实现了隐私可编程。
 
-### Manta Network 波卡平行链
+- [ ] todo
 
-算法：zk-SNARK
+## 以太坊扩容
 
-![](../img/MantaNetwork_logo.png)
+> 随着以太坊链上活动越来越多，导致越来越堵，为了保证 L1 的 *安全性* 和 *去中心化*，以太坊转向了一条以 Rollup 为中心的扩容路线。
 
-## L2
-
-### StarkWare
-
-算法：zk-Stark
-
-
-
-### zkSync
-
-### zkEVM
-
-## 扩容
+把我们今天在以太坊上进行的大部分交易执行(DeFi、NFTs 等)都转移到 Rollup 上进行，而不是在以太坊 L1 本身；Rollup 继承了以太坊 L1 的安全性，且由于以太坊 L1 处理了最困难的部分，Rollups 得以专注成为最好的执行层。
 
 ### zk Rollup
+
+> Optimism 和 Arbitrum 二者都是基于 *Optimistic Rollup* 技术的 Rollup 网络；另一类 Rollup 网络则是基于 *ZK-Rollup* 技术，如 zkSync 和 StarkNet
+
+由于 Optimistic Rollup 要提高资本效率就一定会降低安全性，所以 ZK-Rollup 更吸引流动性提供者。
+
+ZR比OR更难，但长远来看，若零知识证明能够实现对于一般交易有效的生成证明的突破，ZR的优势更巨大。
+
+#### zkSync
+
+*算法：zk-Snark*
+
+#### StarkNet
+
+*算法：zk-Stark*
+
+- [ ] todo
+
+
+### zkEVM
