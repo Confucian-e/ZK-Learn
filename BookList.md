@@ -38,6 +38,8 @@
 
 [Optimistic Rollup 的两难困境](https://learnblockchain.cn/article/1619) ✅
 
+[L2 - 深入了解zkSync电路](https://learnblockchain.cn/article/1807)
+
 ### repo
 
 [Awesome zero knowledge proofs (zkp)](https://github.com/matter-labs/awesome-zero-knowledge-proofs)
