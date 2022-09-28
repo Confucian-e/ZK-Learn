@@ -102,18 +102,6 @@ Zcash 的发展大体经过了 OverWinter -> Sprout -> Sapling 这几个阶段�
 
 矿工只需要通过零知识证明验证交易的input和output是平衡的，而不需要查询发送方的余额以及转账金额。
 
-## 链
-
-### Aleo 隐私链
-
-<img src="../img/Aleo_logo.png"  />
-
-#### 背景
-
-Zcash 只能执行基于 UTXO 模型的隐私交易，不具有可编程性；但 Aleo 这条链实现了隐私可编程。
-
-- [ ] todo
-
 ## 以太坊扩容
 
 > 随着以太坊链上活动越来越多，导致越来越堵，为了保证 L1 的 *安全性* 和 *去中心化*，以太坊转向了一条以 Rollup 为中心的扩容路线。
@@ -132,11 +120,50 @@ ZR比OR更难，但长远来看，若零知识证明能够实现对于一般交�
 
 *算法：zk-Snark*
 
+![](../img/zkSync_logo.png)
+
+##### 背景
+
+备受瞩目的以太坊 L2，主网 1.0 已发布，2.0 即将发布
+
+##### 使用
+
+体验上同以太坊，只是交易速度更快，手续费更低。创新点是支持 ERC20 代币支付手续费，也就是说账户里没有以太币也可以发起交易。
+
+##### 技术
+
+zkSync的电路设计很有意思。众所周知，一个区块中会打包不同的交易，如果只是针对一个个交易进行电路的证明，电路大小会变化。zkSync将交易切割成更小的“通用电路“。一个区块中包含固定的”通用电路“，间接支持多个交易。交易证明基于 Plonk 证明系统。
+
+代码设计可以参考 [zkSync源代码导读](https://learnblockchain.cn/article/1642)
+
+电路设计可以参考 [深入理解zkSync电路](https://learnblockchain.cn/article/1807)
+
 #### StarkNet
 
 *算法：zk-Stark*
 
-- [ ] todo
+![](../img/starkNet_logo.png)
 
+##### 背景
+
+明星团队，由世界级密码学家和科学家组成。核心成员是 Zcash 的前 CTO 。多年零知识证明领域研究。
+
+##### 技术
+
+Stark 不如 Snark 成熟，且难与 EVM 兼容。StarkWare 创建了新的 Cairo 语言。
+
+StarkNet 技术解读资料太少了，要研究可能主要参考 zk-Stark 和项目官网吧 🥲
 
 ### zkEVM
+
+> 零知识证明与EVM的结合
+
+各方面都有重大意义：
+
+- 对于 Rollup 扩容：zkEVM 可以为批量交易生成证明从而在主网快速验证
+- 对于 Dapp 开发者：无需学习 zk 硬核知识或新的编程语言就可以编写有 zk 属性的合约
+- 对于 zkEVM 开发者：无需为网络上的合约编写不同电路逻辑，而是仅需维护 zkEVM
+
+Polygon、zkSync、StarkNet 都是这方面的明星项目。
+
+各种 zkEVM 可参考 [清晰理解zkEVM、EVM 兼容性和Rollup](https://learnblockchain.cn/article/4596)
